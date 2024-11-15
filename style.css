@@ -1,0 +1,39 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-body-section {
+    flex: 1;
+}
+
+.header {
+    background-color: #1F2937;
+    color: white;
+}
+
+.testimonial {
+    background-color: #E5E7EB;
+}
+
+.footer {
+    min-height: 75px;
+    color: white;
+    background-color: #1F2937;
+    text-align: center;
+}
+
+.call-to-action {
+    color: white;
+    background-color: #3882F6;
+    width: 900px;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+
+}
