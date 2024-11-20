@@ -1,10 +1,31 @@
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 400;
+    src: url('./assets/fonts/roboto-regular-webfont.woff2') format('woff2'),
+         url('./assets/fonts/roboto-regular-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 100;
+    src: url('./assets/fonts/roboto-lightitalic-webfont.woff2') format('woff2'),
+         url('./assets/fonts/roboto-lightitalic-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 800;
+    src: url('./assets/fonts/roboto-bold-webfont.woff2') format('woff2'),
+         url('./assets/fonts/roboto-bold-webfont.woff') format('woff');
+}
+
 body {
     min-height: 100vh;
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
-    font-family: robo;
+    font-family: 'Roboto', sans-serif;
 }
 
 .main-body-section {
@@ -20,8 +41,45 @@ body {
 }
 
 .nav-bar {
+    margin-top: 10px;
     display: flex;
     justify-content: space-between;
+}
+
+.header-content {
+    height: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    gap: 40px;
+}
+
+.hero-header {
+    font-size: 48px;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.hero-text {
+    margin-bottom: 10px;
+}
+
+.header-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 800px;
+    background-color: #6d747d;
+}
+
+.top-signup-button {
+    border: none;
+    background-color: #3882F6;
+    color: white;
+    padding: 6px 10px 6px 10px;
+    width: 100px;
+    border-radius: 5px;
 }
 
 
@@ -52,7 +110,8 @@ body {
 }
 
 .information-header {
-    justify-self: center;
+    display: flex;
+    justify-content: center;
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
@@ -128,10 +187,13 @@ body {
                             /* Footer styles */
 
 .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     min-height: 75px;
     color: white;
     background-color: #1F2937;
-    text-align: center;
+    /* text-align: center; */
 }
 
 
